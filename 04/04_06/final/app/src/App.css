@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 60%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+span {
+  cursor: pointer;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Delete button styles */
+button.delete-btn {
+  background-color: #f44336; /* Red */
+  color: #fff;
+}
+
+button.delete-btn:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}
+
+/* Add Item button styles */
+button.add-btn {
+  background-color: #4caf50; /* Green */
+  color: #fff;
+}
+
+button.add-btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
